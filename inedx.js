@@ -1,6 +1,4 @@
 /* eslint-disable */
-import { browserHistory } from 'react-router';
-
 let _offsetBottom = 0;
 let _target = window;
 
@@ -192,13 +190,6 @@ let _instance = null;
 function createBubbleInput() {
   if (!_instance) {
     _instance = BubbleInput;
-
-    /**
-     * 监听浏览器url的变化, 然后将target与offsetBottom重置
-     */
-    browserHistory.listen(() => {
-      BubbleInput.reset();
-    });
   }
 
   return _instance;

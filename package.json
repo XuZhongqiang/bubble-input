@@ -1,0 +1,25 @@
+{
+  "name": "bubble-input",
+  "version": "0.1.0",
+  "description": "adjust input position auto in Android hybrid app when keyboard is visible",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuZhongqiang/bubble-input.git"
+  },
+  "keywords": [
+    "adjust",
+    "input",
+    "position",
+    "auto"
+  ],
+  "author": "Joybo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/XuZhongqiang/bubble-input/issues"
+  },
+  "homepage": "https://github.com/XuZhongqiang/bubble-input#readme"
+}
