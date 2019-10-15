@@ -104,7 +104,7 @@ let hasBubbleInput = false;// 代表是否调整过input位置
  * offsetBottom: 默认input或者textarea会移动到页面可视区域底部
  *************** 但如果页面中还有fixed button的情况下, 可用此参数调整输入框位置
  */
-function bubbleInputIfNeed() {
+function bubbleInputIfNeeded() {
   const target = _target;
   const offsetBottom = _offsetBottom;
 
@@ -160,7 +160,7 @@ function work() {
   if (typeof window === 'undefined') return;
 
   if (isAndroid()) {
-    window.addEventListener('resize', eventListener = bubbleInputIfNeed.bind(this));
+    window.addEventListener('resize', eventListener = bubbleInputIfNeeded.bind(this));
   }
 }
 
