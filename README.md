@@ -2,20 +2,20 @@
 adjust input position auto in Android hybrid app when keyboard is visible
 
 ## how to inject
-Only inject in entry file, and invoke the method named 'work'.
+Only inject in the entry file, and invoke the method named 'work'.
 Just like this: 
 
 1. in the entry file, you can invoke BubbleInput.work() to start window.onresize listener.
 ```javascript
 // entry file
-import BubbleInput from '@/utils/bubble-input';
+import BubbleInput from 'bubble-input';
 BubbleInput.work();
 ```
 
 2. in the page, you need invoke BubbleInput.setOffsetBottom() to set distance from the bottom of page, default is 0; and BubbleInput.setTarget() to set the target to scroll, default is window.
 ```javascript
 // page
-import BubbleInput from '@/utils/bubble-input';
+import BubbleInput from 'bubble-input';
 
 export default class CustomizeRoute extends Component {
   componentDidMount() {
