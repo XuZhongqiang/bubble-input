@@ -39,7 +39,7 @@ export default class CustomizeRoute extends Component {
 }
 ```
 
-3. One more thing, if you set _offsetBottom or _target, you need to invoke BubbleInput.reset(). The method will reset properties. However, I know it will be a bad experience, and I will Optimizate in the future when I have a good idea.
+3. One more thing, if you set _offsetBottom or _target, you need to invoke BubbleInput.reset(). The method will reset properties. However, I know it will be a bad experience, and I will optimizate it in the future when I have a good idea.
 ```javascript
 // page
 export default class CustomizeRoute extends Component {
