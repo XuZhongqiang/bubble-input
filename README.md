@@ -12,7 +12,7 @@ import BubbleInput from 'bubble-input';
 BubbleInput.work();
 ```
 
-2. in the page, you need invoke BubbleInput.setOffsetBottom() to set distance from the bottom of page, default is 0; and BubbleInput.setTarget() to set the target to scroll, default is window.
+2. in the page, you need to invoke BubbleInput.setOffsetBottom() to set distance from the bottom of page, default is 0; and BubbleInput.setTarget() to set the target to scroll, default is window.
 ```javascript
 // page
 import BubbleInput from 'bubble-input';
