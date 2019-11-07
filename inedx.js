@@ -1,4 +1,3 @@
-/* eslint-disable */
 let _offsetBottom = 0;
 let _target = window;
 
