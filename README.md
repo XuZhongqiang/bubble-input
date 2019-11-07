@@ -12,7 +12,7 @@ import BubbleInput from 'bubble-input';
 BubbleInput.work();
 ```
 
-2. in the page, you need invoke BubbleInput.setOffsetBottom() to set distance from the bottom of page, default is 0; and BubbleInput.setTarget() to set the target to scroll, default is window.
+2. in the page, you need to invoke BubbleInput.setOffsetBottom() to set distance from the bottom of page, default is 0; and BubbleInput.setTarget() to set the target to scroll, default is window.
 ```javascript
 // page
 import BubbleInput from 'bubble-input';
@@ -39,7 +39,7 @@ export default class CustomizeRoute extends Component {
 }
 ```
 
-3. One more thing, if you set _offsetBottom or _target, you need to invoke BubbleInput.reset(). The method will reset properties. However, I know it will be a bad experience, and I will Optimizate in the future when I have a good idea.
+3. One more thing, if you set _offsetBottom or _target, you need to invoke BubbleInput.reset(). The method will reset properties. However, I know it will be a bad experience, and I will optimizate it in the future when I have a good idea.
 ```javascript
 // page
 export default class CustomizeRoute extends Component {
